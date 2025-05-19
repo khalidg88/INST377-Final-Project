@@ -1,6 +1,8 @@
 # INST377-Final-Project
 book quote finder
 
+VERCEL --- https://vercel.com/khalidg88s-projects/inst-377-final-project
+
 Project Description
 A web application that helps users discover books through meaningful quotes, with additional features for book exploration and community discussion. Built with HTML, CSS, JavaScript, and Google Books API.
 
