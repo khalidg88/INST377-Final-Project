@@ -8,8 +8,6 @@ Key Features
 - Quote Search: Find books by searching for memorable quotes
 - **Random Discovery**: Get inspired with random book quotes
 - **Community Forum**: Discuss books with other readers
-- **Reading Progress**: Track your reading journey
-- **Book Explorer**: Browse popular books in interactive carousel
 
 Target Browsers
 - **Desktop**: Chrome, Firefox, Safari, Edge (latest versions)
