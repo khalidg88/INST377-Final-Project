@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Quote Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <span class="logo">BookQuote</span>
+        </div>
+        <div class="nav-right">
+ 
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="forum.html">Forum</a>
+            <button id="random-btn" class="nav-btn">Random Quote</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="search-container">
+            <h1>Find Book Quotes</h1>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search for quotes, books, or authors...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="results-container" id="results-container">
+            <!-- Results will be displayed here -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Created by Khalid Goshu for INST377</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

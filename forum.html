@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Forum - Book Quote Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <a href="index.html" class="logo">BookQuote</a>
+        </div>
+        <div class="nav-right">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="forum.html" class="active">Forum</a>
+        </div>
+    </nav>
+
+    <main class="container forum-container">
+        <h1>Book Discussion Forum</h1>
+        
+        <div class="forum-actions">
+            <button id="new-topic-btn" class="forum-btn">
+                <i class="fas fa-plus"></i> New Topic
+            </button>
+            <div class="search-box">
+                <input type="text" id="forum-search" placeholder="Search discussions...">
+                <button id="forum-search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+
+        <div class="new-topic-form" id="new-topic-form" style="display: none;">
+            <h3>Start a New Discussion</h3>
+            <form id="topic-form">
+                <input type="text" id="topic-title" placeholder="Discussion title" required>
+                <select id="topic-book" required>
+                    <option value="">Select a book...</option>
+                    <!-- Will be populated by JavaScript -->
+                </select>
+                <textarea id="topic-content" placeholder="Your thoughts..." required></textarea>
+                <button type="submit" class="forum-btn">Post Discussion</button>
+            </form>
+        </div>
+
+        <div class="discussions-list" id="discussions-list">
+   
+            <div class="discussion">
+                <div class="discussion-header">
+                    <h3>Thoughts on "To Kill a Mockingbird"</h3>
+                    <span class="discussion-meta">
+                        Posted by <strong>JaneDoe</strong> on May 15, 2023
+                    </span>
+                </div>
+                <div class="discussion-content">
+                    <p>I was particularly struck by Atticus's moral courage in defending Tom Robinson. What did others think about this aspect of the novel?</p>
+                </div>
+                <div class="discussion-footer">
+                    <span class="discussion-book">Book: To Kill a Mockingbird by Harper Lee</span>
+                    <button class="reply-btn"><i class="fas fa-reply"></i> Reply</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Book Quote Finder | INST377 Group Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="forum.js"></script>
+</body>
+</html>
